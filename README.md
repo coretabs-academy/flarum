@@ -54,19 +54,19 @@ You will find it listening on port `8001`, in my case:
 ### Troubleshooting
 
   #### `"<volume>" includes invalid characters for a local volume name`
-    This is because you're running **docker tools on Windows**.
+  This is because you're running **docker tools on Windows**.
    
-    You need to make docker-compose convert Windows paths, by running this command:
-    ```
-    $Env:COMPOSE_CONVERT_WINDOWS_PATHS=1
-    ```
+  You need to make docker-compose convert Windows paths, by running this command:
+  ```
+  $Env:COMPOSE_CONVERT_WINDOWS_PATHS=1
+  ```
   
   #### `Cannot create container for service dockerapp`
     
-    * **docker-tools**:
-      If you're using docker-tools on Windows, cloning the repo into your desktop will do.
+  * **docker-tools**:
+    If you're using docker-tools on Windows, cloning the repo into your desktop will do.
 
-    * **DockerCE**:
-      You would need to allow sharing drives in docker
+  * **DockerCE**:
+    You would need to allow sharing drives in docker
 
-      [image](https://cdn-enterprise.discourse.org/docker/uploads/default/original/2X/a/afd0f40b9df5ad7442ab9211e43339db0a610f8a.png)
+    ![DockerCE-Share](https://cdn-enterprise.discourse.org/docker/uploads/default/original/2X/a/afd0f40b9df5ad7442ab9211e43339db0a610f8a.png)
