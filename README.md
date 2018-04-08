@@ -36,6 +36,8 @@ You will find it listening on port `8001`, in my case:
 
   http://192.168.99.100:8001
 
+  ![flarum](./setup-flarum.png)
+
 ### Database
 
   To install flarum, you will need to know the setup of the database.
